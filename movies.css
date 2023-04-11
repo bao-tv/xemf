@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'font-game';
+    src: url('./font/Pony.ttf');
+}
+
+.movie {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./bgmovie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: hsla(0.25);
+    width: 100%;
+    height: 100vh;
+    font-family: font-game;
+    position: absolute;
+}
+.screen {
+    border-bottom: 15px solid #ffa008;
+    border-left: 200px solid transparent ;
+    border-right: 200px solid transparent;
+    width: 100%;
+    height: 0px;
+
+    box-shadow: 0px 9px 15px 2px #f8f7f7;
+}
+
+.seatNum {
+    font-size: 10px;
+}
+
+.seatStatus {
+    display: flex;
+    align-items: center;
+    color: #fffefc;
+}
+
+.seatDone {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: solid #fffefc;
+    background-color: rgb(255, 160, 8);
+}
+
+.seatSelecting {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: solid #fffefc;
+    background-color: #18d945;
+}
+
+.seatEmpty {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: solid #fffefc;
+    background-color: #fffefc;
+}
+/* 
+.table {
+    color: #fffefc;
+} */
